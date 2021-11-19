@@ -18,9 +18,9 @@ import json
 
 class TinderSwiper:
     def __init__(self):
-        self.api_tinder_auth = "0274df7a-7da3-467e-b7bc-97e6b503c828"
-        self.faceplusplus_api_key = "TYEXLF6lvhZjhJHbL6meyeE79aoMHRLx"
-        self.aceplusplus_api_secret = "zznrfSly8Wobil62GVFxVEurhXMMzIfl"
+        self.api_tinder_auth = "your tinder auth key"
+        self.faceplusplus_api_key = "your face++ key"
+        self.aceplusplus_api_secret = "your face++ secret"
         self.faceplusplus_api_url = "https://api-us.faceplusplus.com/facepp/v3/detect"
         self.tinder_api_likes_url = "https://api.gotinder.com/v2/fast-match/teasers"
         self.tinder_api_recs_url = "https://api.gotinder.com/user/recs"
